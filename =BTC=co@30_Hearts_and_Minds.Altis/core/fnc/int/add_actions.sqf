@@ -229,7 +229,7 @@ if (btc_p_flag > 1) then {
     [player, 1, ["ACE_SelfActions", "ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;
     _action = ["btc_flag_cutPlayer", localize "STR_BTC_HAM_ACTION_VEHINIT_CUTFLAG", "\A3\ui_f\data\map\markers\handdrawn\flag_CA.paa", {
         _target forceFlagTexture "";
-    }, {getForcedFlagTexture _target isNotEqualTo ""}] call ace_interact_menu_fnc_createAction;
+    }, {getForcedFlagTexture _target isNotEqualTo "" && !([player] call ace_flags_fnc_isCarryingFlag)}] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions", "ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;
 };
 

@@ -5,7 +5,6 @@ Servers list : [battlemetrics.com](https://www.battlemetrics.com/servers/arma3?q
 
 ## Mission gameplay documentation
   - [InGame Documentation](http://vdauphin.github.io/HeartsAndMinds/InGame-documentation)
-  - [Action has consequences](http://vdauphin.github.io/HeartsAndMinds/Action-has-consequences)
 
 ## Mission editing
   - [Change MAP of H&M](http://vdauphin.github.io/HeartsAndMinds/Change-MAP-of-Hearts-and-Minds)
